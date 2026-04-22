@@ -1,0 +1,37 @@
+{
+  "editor.hover.enabled": "on",
+  "editor.parameterHints.enabled": true,
+  "editor.quickSuggestions": {
+    "strings": true,
+    "other": true,
+    "comments": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "never",
+      "source.fixAll.ruff": "never",
+      "source.organizeImports": "never",
+      "source.organizeImports.ruff": "never"
+    }
+  },
+  "notebook.defaultFormatter": "charliermarsh.ruff",
+  "notebook.formatOnSave.enabled": true,
+  "notebook.codeActionsOnSave": {
+    "notebook.source.fixAll": "never",
+    "notebook.source.fixAll.ruff": "never",
+    "notebook.source.organizeImports": "never",
+    "notebook.source.organizeImports.ruff": "never"
+  },
+  "python.languageServer": "Pylance",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.indexing": true,
+  "ruff.nativeServer": "on",
+  "ruff.lineLength": 98,
+  "ruff.configurationPreference": "editorFirst"
+}
